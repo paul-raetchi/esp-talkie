@@ -1,0 +1,2260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mic" unit="mic" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="110" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="111" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="top_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Generated from &lt;b&gt;talkie.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="ER-OLED0.49_ER-OLED0.49">
+<circle x="0.65" y="3.3" radius="0.05" width="1" layer="21"/>
+<circle x="11.4" y="3.35" radius="0.05" width="1" layer="21"/>
+<wire x1="0" y1="0" x2="12" y2="0" width="0.1" layer="22"/>
+<wire x1="12" y1="0" x2="12" y2="4" width="0.1" layer="22"/>
+<wire x1="12" y1="4" x2="0" y2="4" width="0.1" layer="22"/>
+<wire x1="0" y1="4" x2="0" y2="0" width="0.1" layer="22"/>
+<smd name="P$1" x="1.45" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$2" x="2.15" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$3" x="2.85" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$4" x="3.55" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$5" x="4.25" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$6" x="4.95" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$7" x="5.65" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$8" x="6.35" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$9" x="7.05" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$10" x="7.75" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$11" x="8.45" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$12" x="9.15" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$13" x="9.85" y="2" dx="0.35" dy="4" layer="1"/>
+<smd name="P$14" x="10.55" y="2" dx="0.35" dy="4" layer="1"/>
+</package>
+<package name="SEEED-OPL-CAPACITOR_C0402">
+<description>&lt;b&gt;0402&lt;b&gt;&lt;p&gt;</description>
+<wire x1="-0.4445" y1="0.762" x2="-0.3175" y2="0.889" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.3175" y1="0.889" x2="0.3175" y2="0.889" width="0.0762" layer="21"/>
+<wire x1="0.3175" y1="0.889" x2="0.4445" y2="0.762" width="0.0762" layer="21" curve="-90"/>
+<wire x1="0.4445" y1="0.762" x2="0.4445" y2="-0.762" width="0.0762" layer="21"/>
+<wire x1="0.4445" y1="-0.762" x2="0.3175" y2="-0.889" width="0.0762" layer="21" curve="-90"/>
+<wire x1="0.3175" y1="-0.889" x2="-0.3175" y2="-0.889" width="0.0762" layer="21"/>
+<wire x1="-0.3175" y1="-0.889" x2="-0.4445" y2="-0.762" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.4445" y1="-0.762" x2="-0.4445" y2="0.762" width="0.0762" layer="21"/>
+<smd name="1" x="0" y="0.4445" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R270"/>
+<smd name="2" x="0" y="-0.4445" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R270"/>
+<text x="0.635" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
+<text x="-0.254" y="0.762" size="0.635" layer="27" font="vector" ratio="10" rot="R270">&gt;VALUE</text>
+<polygon width="0.0254" layer="51">
+<vertex x="0.254" y="0.508"/>
+<vertex x="0.254" y="-0.508"/>
+<vertex x="-0.254" y="-0.508"/>
+<vertex x="-0.254" y="0.508"/>
+</polygon>
+</package>
+<package name="SEEED-OPL-CAPACITOR_C0603">
+<description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
+<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
+<rectangle x1="-1.27" y1="-0.508" x2="1.27" y2="0.508" layer="39" rot="R270"/>
+<smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<text x="0.889" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
+<text x="-0.3175" y="1.27" size="0.635" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
+<text x="-0.254" y="1.27" size="0.635" layer="33" ratio="10" rot="R270">&gt;name</text>
+</package>
+<package name="SEEED-OPL-CONNECTOR_MICRO-USB5+4P-SMD-0.65-B">
+<wire x1="-3.7" y1="-5" x2="-3.7" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="0" x2="3.7" y2="0" width="0.127" layer="21"/>
+<wire x1="3.7" y1="0" x2="3.7" y2="-5" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-5" x2="-4" y2="-5.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-5" x2="4" y2="-5.6" width="0.127" layer="21"/>
+<wire x1="-3.4" y1="-5" x2="3.4" y2="-5" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-5.5" x2="3.2" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-5.5" x2="-4" y2="-5.6" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-5.5" x2="4" y2="-5.6" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="-5.715" x2="-3.175" y2="-4.318" width="0.127" layer="46"/>
+<wire x1="-3.175" y1="-4.318" x2="-3.429" y2="-4.699" width="0.127" layer="46"/>
+<wire x1="-3.175" y1="-4.318" x2="-2.921" y2="-4.699" width="0.127" layer="46"/>
+<wire x1="3.175" y1="-5.715" x2="3.175" y2="-4.318" width="0.127" layer="46"/>
+<wire x1="3.175" y1="-4.318" x2="2.921" y2="-4.699" width="0.127" layer="46"/>
+<wire x1="3.175" y1="-4.318" x2="3.429" y2="-4.699" width="0.127" layer="46"/>
+<wire x1="-3.2258" y1="-2.794" x2="-3.2258" y2="-3.556" width="0.508" layer="46"/>
+<wire x1="3.2258" y1="-2.794" x2="3.2258" y2="-3.556" width="0.508" layer="46"/>
+<rectangle x1="-1.5" y1="-1.6" x2="1.5" y2="-1.2" layer="41"/>
+<smd name="1" x="-1.3" y="-0.25" dx="0.381" dy="1.524" layer="1" roundness="50" rot="R180"/>
+<smd name="2" x="-0.65" y="-0.25" dx="0.381" dy="1.524" layer="1" roundness="50" rot="R180"/>
+<smd name="3" x="0" y="-0.25" dx="0.381" dy="1.524" layer="1" roundness="50" rot="R180"/>
+<smd name="4" x="0.65" y="-0.25" dx="0.381" dy="1.524" layer="1" roundness="50" rot="R180"/>
+<smd name="5" x="1.3" y="-0.25" dx="0.381" dy="1.524" layer="1" roundness="50" rot="R180"/>
+<smd name="S1" x="-3.4" y="-0.427" dx="1.397" dy="1.6" layer="1" roundness="50" rot="R90"/>
+<pad name="S2" x="-3.2258" y="-3.175" drill="0.508" diameter="1.016" shape="long" rot="R90"/>
+<smd name="S3" x="-1" y="-3.5" dx="1.5" dy="1.5" layer="1" roundness="50"/>
+<smd name="S4" x="1" y="-3.5" dx="1.5" dy="1.5" layer="1" roundness="50"/>
+<pad name="S5" x="3.2258" y="-3.175" drill="0.508" diameter="1.016" shape="long" rot="R90"/>
+<smd name="S6" x="3.4" y="-0.427" dx="1.397" dy="1.6" layer="1" roundness="50" rot="R90"/>
+<text x="-1.905" y="1.27" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="0.889" layer="27" ratio="11">&gt;value</text>
+<text x="-6.35" y="-6.35" size="0.635" layer="46" ratio="10">2 slot drills with copper</text>
+<hole x="-2" y="-0.65" drill="0.635"/>
+<hole x="2" y="-0.65" drill="0.635"/>
+<polygon width="0.127" layer="31">
+<vertex x="-2.7305" y="-2.667"/>
+<vertex x="-2.7305" y="-3.683" curve="-90"/>
+<vertex x="-3.2385" y="-4.191" curve="-90"/>
+<vertex x="-3.7465" y="-3.683"/>
+<vertex x="-3.7465" y="-2.667" curve="-90"/>
+<vertex x="-3.2385" y="-2.159" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="2.7305" y="-3.683"/>
+<vertex x="2.7305" y="-2.667" curve="-90"/>
+<vertex x="3.2385" y="-2.159" curve="-90"/>
+<vertex x="3.7465" y="-2.667"/>
+<vertex x="3.7465" y="-3.683" curve="-90"/>
+<vertex x="3.2385" y="-4.191" curve="-90"/>
+</polygon>
+</package>
+<package name="SEEED-OPL-DIODE_LED-0402">
+<wire x1="-0.762" y1="-0.4445" x2="-0.889" y2="-0.3175" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.889" y1="-0.3175" x2="-0.889" y2="0.3175" width="0.0762" layer="21"/>
+<wire x1="-0.889" y1="0.3175" x2="-0.762" y2="0.4445" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="0.4445" x2="0.5715" y2="0.4445" width="0.0762" layer="21"/>
+<wire x1="0.5715" y1="0.4445" x2="0.889" y2="0.127" width="0.0762" layer="21"/>
+<wire x1="0.889" y1="0.127" x2="0.889" y2="-0.127" width="0.0762" layer="21"/>
+<wire x1="0.889" y1="-0.127" x2="0.5715" y2="-0.4445" width="0.0762" layer="21"/>
+<wire x1="0.5715" y1="-0.4445" x2="-0.762" y2="-0.4445" width="0.0762" layer="21"/>
+<smd name="+" x="-0.4445" y="0" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R90"/>
+<smd name="-" x="0.4445" y="0" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R90"/>
+<text x="-1.905" y="0.635" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-0.635" y="-0.127" size="0.254" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_PR-D1.8*L3.3MM">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0204, grid 5 mm</description>
+<wire x1="2.54" y1="0" x2="2.032" y2="0" width="0.508" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.508" layer="51"/>
+<wire x1="-1.778" y1="0.635" x2="-1.524" y2="0.889" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.778" y1="-0.635" x2="-1.524" y2="-0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="-0.889" x2="1.778" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="0.889" x2="1.778" y2="0.635" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.778" y1="-0.635" x2="-1.778" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0.889" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="0.762" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-0.889" x2="-1.27" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-0.762" x2="-1.27" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0.762" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0.762" x2="-1.143" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-0.762" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-0.762" x2="-1.143" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="0.889" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="-0.889" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.635" x2="1.778" y2="0.635" width="0.1524" layer="51"/>
+<rectangle x1="-2.032" y1="-0.254" x2="-1.778" y2="0.254" layer="51"/>
+<rectangle x1="1.778" y1="-0.254" x2="2.032" y2="0.254" layer="51"/>
+<pad name="5" x="-2.54" y="0" drill="0.8128" shape="octagon" rot="R90"/>
+<pad name="6" x="2.54" y="0" drill="0.8128" shape="octagon" rot="R90"/>
+<text x="-1.905" y="1.143" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.651" y="-2.159" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_PR-D2.3XL6.5MM">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0207, grid 10 mm</description>
+<wire x1="5.207" y1="0" x2="4.191" y2="0" width="0.6096" layer="51"/>
+<wire x1="-4.953" y1="0" x2="-3.937" y2="0" width="0.6096" layer="51"/>
+<wire x1="-3.048" y1="0.889" x2="-2.794" y2="1.143" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.048" y1="-0.889" x2="-2.794" y2="-1.143" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.048" y1="-1.143" x2="3.302" y2="-0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.048" y1="1.143" x2="3.302" y2="0.889" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.048" y1="-0.889" x2="-3.048" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="1.143" x2="-2.413" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.016" x2="-2.413" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-1.143" x2="-2.413" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-2.413" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.016" x2="2.667" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.016" x2="-2.286" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.016" x2="2.667" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.016" x2="-2.286" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="1.143" x2="2.667" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="-1.143" x2="2.667" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-0.889" x2="3.302" y2="0.889" width="0.1524" layer="21"/>
+<rectangle x1="3.302" y1="-0.3048" x2="4.1656" y2="0.3048" layer="21"/>
+<rectangle x1="-3.9116" y1="-0.3048" x2="-3.048" y2="0.3048" layer="21"/>
+<pad name="1" x="-4.953" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="5.207" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.413" y="1.397" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-2.413" y="-2.921" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0201">
+<wire x1="-0.3048" y1="0.1524" x2="0.3048" y2="0.1524" width="0.01" layer="51"/>
+<wire x1="0.3048" y1="0.1524" x2="0.3048" y2="-0.1524" width="0.01" layer="51"/>
+<wire x1="0.3048" y1="-0.1524" x2="-0.3048" y2="-0.1524" width="0.01" layer="51"/>
+<wire x1="-0.3048" y1="-0.1524" x2="-0.3048" y2="0.1524" width="0.01" layer="51"/>
+<wire x1="-0.15" y1="0.1524" x2="0.15" y2="0.1524" width="0.01" layer="21"/>
+<wire x1="-0.15" y1="-0.1524" x2="0.15" y2="-0.1524" width="0.01" layer="21"/>
+<rectangle x1="-0.3048" y1="-0.1524" x2="-0.1524" y2="0.1524" layer="51"/>
+<rectangle x1="0.1524" y1="-0.1524" x2="0.3048" y2="0.1524" layer="51"/>
+<smd name="1" x="-0.2794" y="0" dx="0.2794" dy="0.3175" layer="1" roundness="50"/>
+<smd name="2" x="0.2794" y="0" dx="0.2794" dy="0.3175" layer="1" roundness="50"/>
+<text x="-0.381" y="0.254" size="0.635" layer="25" ratio="11">&gt;name</text>
+<text x="-0.381" y="-0.635" size="0.381" layer="27" ratio="11">&gt;value</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0204_7">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0204, grid 7.5 mm</description>
+<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-2.54" y1="0.762" x2="-2.286" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.286" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="1.016" x2="2.54" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="1.016" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0.889" x2="-1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.016" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-0.889" x2="-1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0.889" x2="-1.778" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="-0.889" x2="-1.778" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
+<rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.54" y2="0.254" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.54" y="1.27" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="-0.254" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0207_7">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0207, grid 7.5 mm</description>
+<wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
+<wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-3.175" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-2.921" y1="1.143" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.016" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-1.143" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-1.016" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="-2.413" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="-2.413" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
+<rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
+<rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
+<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.54" y="1.397" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-2.54" y="-0.4318" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0207_12">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0207, grid 12 mm</description>
+<wire x1="6.35" y1="0" x2="5.334" y2="0" width="0.6096" layer="51"/>
+<wire x1="-6.35" y1="0" x2="-5.334" y2="0" width="0.6096" layer="51"/>
+<wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-3.175" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="1.143" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.016" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-1.143" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-1.016" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="-2.413" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="-2.413" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="0" x2="4.064" y2="0" width="0.6096" layer="21"/>
+<wire x1="-4.445" y1="0" x2="-4.064" y2="0" width="0.6096" layer="21"/>
+<rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
+<rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
+<rectangle x1="4.445" y1="-0.3048" x2="5.3086" y2="0.3048" layer="21"/>
+<rectangle x1="-5.3086" y1="-0.3048" x2="-4.445" y2="0.3048" layer="21"/>
+<pad name="1" x="-6.35" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="6.35" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.54" y="1.27" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-2.54" y="-0.4318" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0309_10">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0309, grid 10mm</description>
+<wire x1="-4.699" y1="0" x2="-5.08" y2="0" width="0.6096" layer="51"/>
+<wire x1="-4.318" y1="1.27" x2="-4.064" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.318" y1="-1.27" x2="-4.064" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="4.064" y1="-1.524" x2="4.318" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="4.064" y1="1.524" x2="4.318" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.318" y1="-1.27" x2="-4.318" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-4.064" y1="1.524" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="1.397" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="-1.524" x2="-3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-1.397" x2="-3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="1.397" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="1.397" x2="-3.302" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-1.397" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-1.397" x2="-3.302" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="1.524" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="-1.27" x2="4.318" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="0" x2="4.699" y2="0" width="0.6096" layer="51"/>
+<rectangle x1="-4.6228" y1="-0.3048" x2="-4.318" y2="0.3048" layer="51"/>
+<rectangle x1="4.318" y1="-0.3048" x2="4.6228" y2="0.3048" layer="51"/>
+<pad name="1" x="-5.08" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="5.08" y="0" drill="0.8128" shape="octagon"/>
+<text x="-3.175" y="1.905" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-3.175" y="-0.4318" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0309_12">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0309, grid 12.5 mm</description>
+<wire x1="6.35" y1="0" x2="5.08" y2="0" width="0.6096" layer="51"/>
+<wire x1="-6.35" y1="0" x2="-5.08" y2="0" width="0.6096" layer="51"/>
+<wire x1="-4.318" y1="1.27" x2="-4.064" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.318" y1="-1.27" x2="-4.064" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="4.064" y1="-1.524" x2="4.318" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="4.064" y1="1.524" x2="4.318" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.318" y1="-1.27" x2="-4.318" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="1.524" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="1.397" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="-1.524" x2="-3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-1.397" x2="-3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="1.397" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="1.397" x2="-3.302" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-1.397" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-1.397" x2="-3.302" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="1.524" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="-1.27" x2="4.318" y2="1.27" width="0.1524" layer="21"/>
+<rectangle x1="4.318" y1="-0.3048" x2="5.1816" y2="0.3048" layer="21"/>
+<rectangle x1="-5.1816" y1="-0.3048" x2="-4.318" y2="0.3048" layer="21"/>
+<pad name="1" x="-6.35" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="6.35" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.54" y="1.778" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-2.54" y="-0.4318" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0309_15">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0309, grid 15mm</description>
+<wire x1="-6.604" y1="0" x2="-7.62" y2="0" width="0.6096" layer="51"/>
+<wire x1="-4.318" y1="1.27" x2="-4.064" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.318" y1="-1.27" x2="-4.064" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="4.064" y1="-1.524" x2="4.318" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="4.064" y1="1.524" x2="4.318" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.318" y1="-1.27" x2="-4.318" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-4.064" y1="1.524" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="1.397" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="-1.524" x2="-3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-1.397" x2="-3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="1.397" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="1.397" x2="-3.302" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-1.397" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-1.397" x2="-3.302" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="1.524" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="-1.27" x2="4.318" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="7.62" y1="0" x2="6.477" y2="0" width="0.6096" layer="51"/>
+<rectangle x1="-6.477" y1="-0.3175" x2="-4.318" y2="0.3175" layer="21"/>
+<rectangle x1="4.318" y1="-0.3175" x2="6.477" y2="0.3175" layer="21"/>
+<pad name="1" x="-7.62" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="7.62" y="0" drill="0.8128" shape="octagon"/>
+<text x="-3.175" y="1.778" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-3.175" y="-0.4318" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0309_20">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0309, grid 20mm</description>
+<wire x1="-9.144" y1="0" x2="-10.16" y2="0" width="0.6096" layer="51"/>
+<wire x1="-4.318" y1="1.27" x2="-4.064" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.318" y1="-1.27" x2="-4.064" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="4.064" y1="-1.524" x2="4.318" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="4.064" y1="1.524" x2="4.318" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.318" y1="-1.27" x2="-4.318" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-4.064" y1="1.524" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="1.397" x2="-3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="-1.524" x2="-3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="-1.397" x2="-3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="1.397" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="1.397" x2="-3.302" y2="1.397" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-1.397" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="-1.397" x2="-3.302" y2="-1.397" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="1.524" x2="3.429" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="-1.524" x2="3.429" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="-1.27" x2="4.318" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="10.16" y1="0" x2="9.017" y2="0" width="0.6096" layer="51"/>
+<rectangle x1="-9.017" y1="-0.3175" x2="-4.318" y2="0.3175" layer="21"/>
+<rectangle x1="4.318" y1="-0.3175" x2="9.017" y2="0.3175" layer="21"/>
+<pad name="1" x="-10.16" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="10.16" y="0" drill="0.8128" shape="octagon"/>
+<text x="-3.175" y="1.905" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-3.175" y="-0.4318" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0402">
+<wire x1="-0.4445" y1="0.762" x2="-0.3175" y2="0.889" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.3175" y1="0.889" x2="0.3175" y2="0.889" width="0.0762" layer="21"/>
+<wire x1="0.3175" y1="0.889" x2="0.4445" y2="0.762" width="0.0762" layer="21" curve="-90"/>
+<wire x1="0.4445" y1="0.762" x2="0.4445" y2="-0.762" width="0.0762" layer="21"/>
+<wire x1="0.4445" y1="-0.762" x2="0.3175" y2="-0.889" width="0.0762" layer="21" curve="-90"/>
+<wire x1="0.3175" y1="-0.889" x2="-0.3175" y2="-0.889" width="0.0762" layer="21"/>
+<wire x1="-0.3175" y1="-0.889" x2="-0.4445" y2="-0.762" width="0.0762" layer="21" curve="-90"/>
+<wire x1="-0.4445" y1="-0.762" x2="-0.4445" y2="0.762" width="0.0762" layer="21"/>
+<smd name="1" x="0" y="0.4445" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R270"/>
+<smd name="2" x="0" y="-0.4445" dx="0.635" dy="0.635" layer="1" roundness="50" rot="R270"/>
+<text x="0.635" y="1.27" size="0.889" layer="25" ratio="11" rot="R270">&gt;NAME</text>
+<text x="-1.524" y="1.27" size="0.889" layer="27" font="vector" ratio="11" rot="R270">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0515_20.4">
+<wire x1="-5.08" y1="2.032" x2="5.08" y2="2.032" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.032" x2="5.715" y2="2.413" width="0.127" layer="21"/>
+<wire x1="5.715" y1="2.413" x2="7.239" y2="2.413" width="0.127" layer="21"/>
+<wire x1="7.239" y1="2.413" x2="7.62" y2="2.032" width="0.127" layer="21" curve="-90"/>
+<wire x1="7.62" y1="2.032" x2="7.62" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.032" x2="7.239" y2="-2.413" width="0.127" layer="21" curve="-90"/>
+<wire x1="7.239" y1="-2.413" x2="5.715" y2="-2.413" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-2.413" x2="5.08" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-2.032" x2="-5.08" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-2.032" x2="-5.715" y2="-2.413" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="-2.413" x2="-7.239" y2="-2.413" width="0.127" layer="21"/>
+<wire x1="-7.239" y1="-2.413" x2="-7.62" y2="-2.032" width="0.127" layer="21" curve="-90"/>
+<wire x1="-7.62" y1="-2.032" x2="-7.62" y2="2.032" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="2.032" x2="-7.239" y2="2.413" width="0.127" layer="21" curve="-90"/>
+<wire x1="-7.239" y1="2.413" x2="-5.715" y2="2.413" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="2.413" x2="-5.08" y2="2.032" width="0.127" layer="21"/>
+<rectangle x1="-9.144" y1="-0.3175" x2="-7.62" y2="0.3175" layer="21"/>
+<rectangle x1="7.62" y1="-0.3175" x2="9.144" y2="0.3175" layer="21"/>
+<pad name="P$1" x="-10.2362" y="0" drill="1.0414" diameter="1.905"/>
+<pad name="P$2" x="10.2362" y="0" drill="1.0414" diameter="1.905"/>
+<text x="-3.81" y="2.54" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-4.445" y="-0.635" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<text x="-1.905" y="-0.635" size="0.8128" layer="33" ratio="10">&gt;NAME</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0603">
+<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
+<smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
+<text x="-1.016" y="-1.905" size="0.889" layer="25" ratio="11" rot="R90">&gt;NAME</text>
+<text x="1.905" y="-1.27" size="0.635" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0805">
+<wire x1="0.889" y1="-1.651" x2="-0.889" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="-1.651" x2="-0.889" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-0.889" y1="1.651" x2="0.889" y2="1.651" width="0.127" layer="21"/>
+<wire x1="0.889" y1="1.651" x2="0.889" y2="-1.651" width="0.127" layer="21"/>
+<smd name="1" x="0" y="0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
+<smd name="2" x="0" y="-0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
+<text x="1.016" y="1.905" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
+<text x="-1.905" y="1.905" size="0.889" layer="27" ratio="11" rot="R270">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0821_27">
+<wire x1="7.48840625" y1="-3.3" x2="-7.48840625" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="-7.48840625" y1="-3.3" x2="-7.74075625" y2="-3.352296875" width="0.127" layer="21" curve="23.415886"/>
+<wire x1="-7.74075625" y1="-3.352296875" x2="-8.76924375" y2="-3.797703125" width="0.127" layer="21"/>
+<wire x1="-8.76924375" y1="-3.797703125" x2="-9.02159375" y2="-3.85" width="0.127" layer="21" curve="-23.415751"/>
+<wire x1="-9.02159375" y1="-3.85" x2="-9.865" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="-9.865" y1="-3.85" x2="-10.5" y2="-3.215" width="0.127" layer="21" curve="-90"/>
+<wire x1="-10.5" y1="-3.215" x2="-10.5" y2="3.215" width="0.127" layer="21"/>
+<wire x1="-10.5" y1="3.215" x2="-9.865" y2="3.85" width="0.127" layer="21" curve="-90"/>
+<wire x1="-9.865" y1="3.85" x2="-9.02159375" y2="3.85" width="0.127" layer="21"/>
+<wire x1="-9.02159375" y1="3.85" x2="-8.76924375" y2="3.797703125" width="0.127" layer="21" curve="-23.415886"/>
+<wire x1="-8.76924375" y1="3.797703125" x2="-7.74075625" y2="3.352296875" width="0.127" layer="21"/>
+<wire x1="-7.74075625" y1="3.352296875" x2="-7.48840625" y2="3.3" width="0.127" layer="21" curve="23.415751"/>
+<wire x1="-7.48840625" y1="3.3" x2="7.48840625" y2="3.3" width="0.127" layer="21"/>
+<wire x1="7.48840625" y1="3.3" x2="7.74075625" y2="3.352296875" width="0.127" layer="21" curve="23.415886"/>
+<wire x1="7.74075625" y1="3.352296875" x2="8.76924375" y2="3.797703125" width="0.127" layer="21"/>
+<wire x1="8.76924375" y1="3.797703125" x2="9.02159375" y2="3.85" width="0.127" layer="21" curve="-23.415751"/>
+<wire x1="9.02159375" y1="3.85" x2="9.865" y2="3.85" width="0.127" layer="21"/>
+<wire x1="9.865" y1="3.85" x2="10.5" y2="3.215" width="0.127" layer="21" curve="-90"/>
+<wire x1="10.5" y1="3.215" x2="10.5" y2="-3.215" width="0.127" layer="21"/>
+<wire x1="10.5" y1="-3.215" x2="9.865" y2="-3.85" width="0.127" layer="21" curve="-90"/>
+<wire x1="9.865" y1="-3.85" x2="9.02159375" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="9.02159375" y1="-3.85" x2="8.76924375" y2="-3.797703125" width="0.127" layer="21" curve="-23.415886"/>
+<wire x1="8.76924375" y1="-3.797703125" x2="7.74075625" y2="-3.352296875" width="0.127" layer="21"/>
+<wire x1="7.74075625" y1="-3.352296875" x2="7.48840625" y2="-3.3" width="0.127" layer="21" curve="23.415751"/>
+<wire x1="-12.065" y1="0" x2="-10.541" y2="0" width="0.127" layer="21"/>
+<rectangle x1="10.541" y1="-0.254" x2="12.192" y2="0.254" layer="21"/>
+<rectangle x1="-12.192" y1="-0.254" x2="-10.541" y2="0.254" layer="21"/>
+<pad name="P$1" x="-13.5" y="0" drill="1.2" diameter="2.2"/>
+<pad name="P$2" x="13.5" y="0" drill="1.2" diameter="2.2"/>
+<text x="-5.08" y="3.683" size="0.889" layer="25" ratio="11">&gt;name</text>
+<text x="-5.08" y="-0.635" size="0.889" layer="27" ratio="11">&gt;value</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R0824_26">
+<wire x1="6.508515625" y1="-3.6068" x2="-6.508515625" y2="-3.6068" width="0.127" layer="21"/>
+<wire x1="-6.508515625" y1="-3.6068" x2="-6.6952625" y2="-3.63488125" width="0.127" layer="21" curve="17.102957"/>
+<wire x1="-6.6952625" y1="-3.63488125" x2="-7.8335375" y2="-3.98511875" width="0.127" layer="21"/>
+<wire x1="-7.8335375" y1="-3.98511875" x2="-8.020284375" y2="-4.0132" width="0.127" layer="21" curve="-17.102969"/>
+<wire x1="-8.020284375" y1="-4.0132" x2="-11.3538" y2="-4.0132" width="0.127" layer="21"/>
+<wire x1="-11.3538" y1="-4.0132" x2="-11.9888" y2="-3.3782" width="0.127" layer="21" curve="-90"/>
+<wire x1="-11.9888" y1="-3.3782" x2="-11.9888" y2="3.3782" width="0.127" layer="21"/>
+<wire x1="-11.9888" y1="3.3782" x2="-11.3538" y2="4.0132" width="0.127" layer="21" curve="-90"/>
+<wire x1="-11.3538" y1="4.0132" x2="-8.020284375" y2="4.0132" width="0.127" layer="21"/>
+<wire x1="-8.020284375" y1="4.0132" x2="-7.8335375" y2="3.98511875" width="0.127" layer="21" curve="-17.102957"/>
+<wire x1="-7.8335375" y1="3.98511875" x2="-6.6952625" y2="3.63488125" width="0.127" layer="21"/>
+<wire x1="-6.6952625" y1="3.63488125" x2="-6.508515625" y2="3.6068" width="0.127" layer="21" curve="17.102969"/>
+<wire x1="-6.508515625" y1="3.6068" x2="6.508515625" y2="3.6068" width="0.127" layer="21"/>
+<wire x1="6.508515625" y1="3.6068" x2="6.6952625" y2="3.63488125" width="0.127" layer="21" curve="17.102957"/>
+<wire x1="6.6952625" y1="3.63488125" x2="7.8335375" y2="3.98511875" width="0.127" layer="21"/>
+<wire x1="7.8335375" y1="3.98511875" x2="8.020284375" y2="4.0132" width="0.127" layer="21" curve="-17.102969"/>
+<wire x1="8.020284375" y1="4.0132" x2="11.3538" y2="4.0132" width="0.127" layer="21"/>
+<wire x1="11.3538" y1="4.0132" x2="11.9888" y2="3.3782" width="0.127" layer="21" curve="-90"/>
+<wire x1="11.9888" y1="3.3782" x2="11.9888" y2="-3.3782" width="0.127" layer="21"/>
+<wire x1="11.9888" y1="-3.3782" x2="11.3538" y2="-4.0132" width="0.127" layer="21" curve="-90"/>
+<wire x1="11.3538" y1="-4.0132" x2="8.020284375" y2="-4.0132" width="0.127" layer="21"/>
+<wire x1="8.020284375" y1="-4.0132" x2="7.8335375" y2="-3.98511875" width="0.127" layer="21" curve="-17.102957"/>
+<wire x1="7.8335375" y1="-3.98511875" x2="6.6952625" y2="-3.63488125" width="0.127" layer="21"/>
+<wire x1="6.6952625" y1="-3.63488125" x2="6.508515625" y2="-3.6068" width="0.127" layer="21" curve="17.102969"/>
+<pad name="1" x="-13.335" y="0" drill="1.27" diameter="2.2098"/>
+<pad name="2" x="13.335" y="0" drill="1.27" diameter="2.2098"/>
+<text x="-4.445" y="3.683" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-4.445" y="-0.254" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R1206">
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.127" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.159" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.159" y1="-1.016" x2="-2.159" y2="1.016" width="0.127" layer="21"/>
+<rectangle x1="-2.032" y1="-0.889" x2="2.032" y2="0.889" layer="39"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="1.524" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="1.524" layer="1"/>
+<text x="-1.905" y="1.27" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="-2.159" size="0.889" layer="27" font="vector" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R2512">
+<description>2512</description>
+<wire x1="-4.445" y1="1.905" x2="4.445" y2="1.905" width="0.127" layer="21"/>
+<wire x1="4.445" y1="1.905" x2="4.445" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-1.905" x2="-4.445" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-1.905" x2="-4.445" y2="1.905" width="0.127" layer="21"/>
+<smd name="1" x="-3.175" y="0" dx="3.302" dy="2.032" layer="1" rot="R90"/>
+<smd name="2" x="3.175" y="0" dx="3.302" dy="2.032" layer="1" rot="R90"/>
+<text x="-2.54" y="2.159" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
+<text x="-3.81" y="-3.048" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<text x="-1.778" y="-0.254" size="0.8128" layer="33" font="vector" ratio="10">&gt;NAME</text>
+</package>
+<package name="SEEED-OPL-RESISTOR_R7519_60.4">
+<wire x1="-38.1" y1="9.525" x2="38.1" y2="9.525" width="0.127" layer="21"/>
+<wire x1="38.1" y1="9.525" x2="38.1" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="38.1" y1="-9.525" x2="-38.1" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="-38.1" y1="-9.525" x2="-38.1" y2="9.525" width="0.127" layer="21"/>
+<wire x1="-30.226" y1="1.524" x2="-30.226" y2="3.556" width="1.016" layer="46"/>
+<wire x1="-30.226" y1="-3.556" x2="-30.226" y2="-1.524" width="1.016" layer="46"/>
+<wire x1="30.226" y1="-3.556" x2="30.226" y2="-1.524" width="1.016" layer="46"/>
+<wire x1="30.226" y1="1.524" x2="30.226" y2="3.556" width="1.016" layer="46"/>
+<rectangle x1="-38.1" y1="-9.525" x2="38.1" y2="9.525" layer="39"/>
+<pad name="1" x="-30.226" y="2.54" drill="1.016" diameter="2.032" shape="long" rot="R90"/>
+<pad name="2" x="-30.226" y="-2.54" drill="1.016" diameter="2.032" shape="long" rot="R90"/>
+<pad name="3" x="30.226" y="2.54" drill="1.016" diameter="2.032" shape="long" rot="R90"/>
+<pad name="4" x="30.226" y="-2.54" drill="1.016" diameter="2.032" shape="long" rot="R90"/>
+<text x="-4.445" y="10.16" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-4.445" y="-1.778" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-SWITCH_SW2-2.6-3.0X2.5X1.2+0.4MM">
+<wire x1="-1.5" y1="-1.25" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.25" x2="1.5" y2="1.25" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="-1.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.25" x2="-1.5" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.2" x2="-1.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.2" x2="-1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.2" x2="1.5" y2="1" width="0.127" layer="21"/>
+<rectangle x1="-1.5" y1="-1.2" x2="1.5" y2="1.2" layer="39"/>
+<smd name="1" x="-1.9" y="0" dx="1.7" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="1.9" y="0" dx="1.7" dy="1" layer="1" rot="R90"/>
+<text x="-1.8" y="1.5" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.5" y="-2.54" size="0.635" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_HC49UP">
+<description>&lt;b&gt;CRYSTAL&lt;/b&gt;</description>
+<wire x1="-5.1091" y1="1.143" x2="-3.429" y2="2.0321" width="0.0508" layer="21" curve="-55.770993"/>
+<wire x1="-5.715" y1="1.143" x2="-5.715" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="2.032" x2="5.1091" y2="1.143" width="0.0508" layer="21" curve="-55.772485"/>
+<wire x1="5.715" y1="1.143" x2="5.715" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-1.27" x2="-3.429" y2="-1.27" width="0.0508" layer="21"/>
+<wire x1="3.429" y1="-2.032" x2="-3.429" y2="-2.032" width="0.0508" layer="21"/>
+<wire x1="-3.429" y1="1.27" x2="3.429" y2="1.27" width="0.0508" layer="21"/>
+<wire x1="5.461" y1="-2.413" x2="-5.461" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-0.381" x2="6.477" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="5.715" y1="0.381" x2="6.477" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="6.477" y1="-0.381" x2="6.477" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="5.461" y1="-2.413" x2="5.715" y2="-2.159" width="0.1524" layer="21" curve="90"/>
+<wire x1="5.715" y1="-1.143" x2="5.715" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="5.715" y1="-2.159" x2="5.715" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="-1.27" x2="3.9826" y2="-1.143" width="0.0508" layer="21" curve="25.842828"/>
+<wire x1="3.429" y1="1.27" x2="3.9826" y2="1.143" width="0.0508" layer="21" curve="-25.842828"/>
+<wire x1="3.429" y1="-2.032" x2="5.109" y2="-1.1429" width="0.0508" layer="21" curve="55.771157"/>
+<wire x1="3.9826" y1="-1.143" x2="3.9826" y2="1.143" width="0.0508" layer="51" curve="128.314524"/>
+<wire x1="5.1091" y1="-1.143" x2="5.1091" y2="1.143" width="0.0508" layer="51" curve="68.456213"/>
+<wire x1="-5.1091" y1="-1.143" x2="-3.429" y2="-2.032" width="0.0508" layer="21" curve="55.772485"/>
+<wire x1="-3.9826" y1="-1.143" x2="-3.9826" y2="1.143" width="0.0508" layer="51" curve="-128.314524"/>
+<wire x1="-3.9826" y1="-1.143" x2="-3.429" y2="-1.27" width="0.0508" layer="21" curve="25.842828"/>
+<wire x1="-3.9826" y1="1.143" x2="-3.429" y2="1.27" width="0.0508" layer="21" curve="-25.842828"/>
+<wire x1="-6.477" y1="-0.381" x2="-6.477" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-5.1091" y1="-1.143" x2="-5.1091" y2="1.143" width="0.0508" layer="51" curve="-68.456213"/>
+<wire x1="-5.715" y1="-1.143" x2="-5.715" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-5.715" y1="-0.381" x2="-5.715" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-5.715" y1="0.381" x2="-5.715" y2="1.143" width="0.1524" layer="51"/>
+<wire x1="-5.715" y1="-2.159" x2="-5.715" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-2.159" x2="-5.461" y2="-2.413" width="0.1524" layer="21" curve="90"/>
+<wire x1="-5.715" y1="-0.381" x2="-6.477" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-5.715" y1="0.381" x2="-6.477" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-3.429" y1="2.032" x2="3.429" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="5.461" y1="2.413" x2="-5.461" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="5.461" y1="2.413" x2="5.715" y2="2.159" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-5.715" y1="2.159" x2="-5.461" y2="2.413" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.254" y1="0.635" x2="-0.254" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-0.635" x2="0.254" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="-0.635" x2="0.254" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0.635" x2="-0.254" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-1.016" y2="0" width="0.0508" layer="21"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.016" y2="0" width="0.0508" layer="21"/>
+<rectangle x1="-6.604" y1="-3.048" x2="6.604" y2="3.048" layer="43"/>
+<smd name="1" x="-4.826" y="0" dx="5.334" dy="1.9304" layer="1"/>
+<smd name="2" x="4.826" y="0" dx="5.334" dy="1.9304" layer="1"/>
+<text x="-3.175" y="2.794" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-3.175" y="-3.81" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_HC49US">
+<description>&lt;b&gt;CRYSTAL&lt;/b&gt;</description>
+<wire x1="-3.048" y1="-2.159" x2="3.048" y2="-2.159" width="0.4064" layer="21"/>
+<wire x1="-3.048" y1="2.159" x2="3.048" y2="2.159" width="0.4064" layer="21"/>
+<wire x1="-3.048" y1="-1.651" x2="3.048" y2="-1.651" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="1.651" x2="-3.048" y2="1.651" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="0.762" x2="0.254" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0.762" x2="0.254" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="-0.762" x2="-0.254" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-0.762" x2="-0.254" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0.762" x2="0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0.762" x2="-0.635" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="2.159" x2="-3.048" y2="-2.159" width="0.4064" layer="21" curve="180"/>
+<wire x1="3.048" y1="-2.159" x2="3.048" y2="2.159" width="0.4064" layer="21" curve="180"/>
+<wire x1="-3.048" y1="1.651" x2="-3.048" y2="-1.651" width="0.1524" layer="21" curve="180"/>
+<wire x1="3.048" y1="-1.651" x2="3.048" y2="1.651" width="0.1524" layer="21" curve="180"/>
+<rectangle x1="-4.445" y1="-2.54" x2="4.445" y2="2.54" layer="43"/>
+<rectangle x1="-5.08" y1="-1.905" x2="-4.445" y2="1.905" layer="43"/>
+<rectangle x1="-5.715" y1="-1.27" x2="-5.08" y2="1.27" layer="43"/>
+<rectangle x1="4.445" y1="-1.905" x2="5.08" y2="1.905" layer="43"/>
+<rectangle x1="5.08" y1="-1.27" x2="5.715" y2="1.27" layer="43"/>
+<pad name="1" x="-2.413" y="0" drill="0.8128"/>
+<pad name="2" x="2.413" y="0" drill="0.8128"/>
+<text x="-3.175" y="2.667" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-3.175" y="-3.556" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X2-2.0-D9.1XL3.3MM">
+<wire x1="1.651" y1="9.144" x2="1.651" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="0.5" x2="-1.651" y2="9.144" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="9.144" x2="1.651" y2="9.144" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="0.3" y2="0" width="0.127" layer="21"/>
+<rectangle x1="-1.651" y1="0" x2="1.651" y2="9.144" layer="39"/>
+<pad name="1" x="-1.016" y="0" drill="0.635" diameter="1.27"/>
+<pad name="2" x="1.016" y="0" drill="0.635" diameter="1.27"/>
+<smd name="3" x="0" y="7.493" dx="2.54" dy="2.032" layer="1" rot="R90"/>
+<text x="2.794" y="1.27" size="0.889" layer="21" ratio="11" rot="R90">&gt;VALUE</text>
+<text x="-1.905" y="1.27" size="0.889" layer="21" ratio="11" rot="R90">&gt;NAME</text>
+</package>
+<package name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X2-SMD-3.2X1.5X0.55MM">
+<wire x1="-1.1" y1="0.75" x2="1.1" y2="0.75" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-0.75" x2="-1.1" y2="-0.75" width="0.127" layer="21"/>
+<smd name="1" x="-1.524" y="0" dx="1.524" dy="0.762" layer="1" roundness="20" rot="R90"/>
+<smd name="2" x="1.524" y="0" dx="1.524" dy="0.762" layer="1" roundness="20" rot="R90"/>
+<text x="-1.651" y="1.016" size="0.889" layer="25" ratio="11">&gt;name</text>
+<text x="-1.651" y="-1.905" size="0.889" layer="27" ratio="11">&gt;value</text>
+</package>
+<package name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X2-SMD-5.0X3.2X1.3MM">
+<description>3.2mm*5mm dimension &lt;br&gt;
+8MHz available</description>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.2" x2="-2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.6" x2="2.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.2" x2="2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="1.016" x2="-0.254" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-1.016" x2="0.254" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="0.254" y1="-1.016" x2="0.254" y2="1.016" width="0.127" layer="21"/>
+<wire x1="0.254" y1="1.016" x2="-0.254" y2="1.016" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="0" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-1.143" y2="0" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0" x2="1.143" y2="0" width="0.127" layer="21"/>
+<rectangle x1="-2.54" y1="-1.016" x2="-1.27" y2="1.016" layer="51"/>
+<rectangle x1="1.27" y1="-1.016" x2="2.54" y2="1.016" layer="51"/>
+<rectangle x1="-2.54" y1="-1.651" x2="2.54" y2="1.651" layer="39"/>
+<smd name="1" x="-2.159" y="0" dx="1.778" dy="2.032" layer="1"/>
+<smd name="2" x="2.159" y="0" dx="1.778" dy="2.032" layer="1"/>
+<text x="-3.175" y="1.905" size="0.889" layer="25" ratio="11">&gt;name</text>
+<text x="-3.175" y="-2.667" size="0.889" layer="27" ratio="11">&gt;value</text>
+</package>
+<package name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X2-SMD-L2.0X1.2X0.55MM">
+<wire x1="-1.025" y1="0.6" x2="1.025" y2="0.6" width="0.127" layer="51"/>
+<wire x1="1.025" y1="0.6" x2="1.025" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="1.025" y1="-0.6" x2="-1.025" y2="-0.6" width="0.127" layer="51"/>
+<wire x1="-1.025" y1="-0.6" x2="-1.025" y2="0.6" width="0.127" layer="51"/>
+<wire x1="-0.2" y1="0.6" x2="0.2" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.6" x2="0.2" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-0.6" x2="0.2" y2="-0.6" width="0.127" layer="21"/>
+<rectangle x1="-1" y1="-0.6" x2="1" y2="0.6" layer="39"/>
+<smd name="1" x="-0.75" y="0" dx="1.25" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="0.75" y="0" dx="1.25" dy="1" layer="1" rot="R90"/>
+<text x="-1.905" y="0.889" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="-1.778" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X4-SMD-2.5X2.0X0.5MM">
+<circle x="-1.778" y="-1.397" radius="0.2032" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="1.2" x2="1.25" y2="1.2" width="0.127" layer="51"/>
+<wire x1="1.25" y1="1.2" x2="1.25" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-1.2" x2="-0.884528125" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="-0.884528125" y1="-1.2" x2="-1.25" y2="-0.834528125" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-0.834528125" x2="-1.25" y2="1.2" width="0.127" layer="51"/>
+<wire x1="-0.2" y1="1" x2="0.2" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-1" x2="0.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-0.1" x2="1.25" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="-0.1" x2="-1.25" y2="0.1" width="0.127" layer="21"/>
+<rectangle x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" layer="39"/>
+<smd name="1" x="-0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="3" x="0.85" y="0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="4" x="-0.85" y="0.65" dx="1.2" dy="1" layer="1"/>
+<text x="-1.27" y="1.397" size="0.889" layer="21" ratio="11">&gt;NAME</text>
+<text x="-1.27" y="-2.286" size="0.889" layer="21" ratio="11">&gt;VALUE</text>
+</package>
+<package name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X4-SMD-3.2X2.5X0.7MM">
+<circle x="-1.2746" y="-1.8068" radius="0.22360625" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="1.25" x2="0.6" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-1.25" x2="0.6" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.5" x2="-1.6" y2="0.5" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.5" x2="1.6" y2="0.5" width="0.127" layer="21"/>
+<rectangle x1="-1.6002" y1="-1.27" x2="1.6002" y2="1.27" layer="39"/>
+<smd name="1" x="-1.27" y="-1.016" dx="1.143" dy="0.889" layer="1" roundness="50"/>
+<smd name="2" x="1.27" y="-1.016" dx="1.143" dy="0.889" layer="1" roundness="50"/>
+<smd name="3" x="1.27" y="1.016" dx="1.143" dy="0.889" layer="1" roundness="50"/>
+<smd name="4" x="-1.27" y="1.016" dx="1.143" dy="0.889" layer="1" roundness="50"/>
+<text x="-1.9878" y="1.6684" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-0.635" y="-2.667" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<text x="-0.635" y="-0.135" size="0.3048" layer="33">&gt;NAME</text>
+</package>
+<package name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X4-SMD-6.9X1.4X1.3MM">
+<circle x="-1.905" y="0" radius="0.254" width="0.127" layer="21"/>
+<wire x1="-2.45" y1="0.7" x2="2.45" y2="0.7" width="0.127" layer="21"/>
+<wire x1="3.45" y1="0.7" x2="3.45" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="2.45" y1="-0.7" x2="-2.45" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-3.45" y1="-0.7" x2="-3.45" y2="0.7" width="0.127" layer="51"/>
+<wire x1="3.45" y1="0.1" x2="3.45" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-3.45" y1="0.1" x2="-3.45" y2="-0.1" width="0.127" layer="21"/>
+<rectangle x1="-3.45" y1="-0.7" x2="3.45" y2="0.7" layer="39"/>
+<smd name="1" x="-3.15" y="-0.45" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="3.15" y="-0.45" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="3.15" y="0.45" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="-3.15" y="0.45" dx="1.2" dy="0.6" layer="1"/>
+<text x="-1.27" y="1.016" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-1.27" y="-1.905" size="0.889" layer="25" ratio="11">&gt;VALUE</text>
+</package>
+<package name="ESP8266MODULES_ESP12E-SMD">
+<description>ESP8266 Module 12E</description>
+<wire x1="7.9" y1="14.2" x2="7.9" y2="6.9" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="6.9" x2="-8.1" y2="14.2" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="14.2" x2="7.9" y2="14.2" width="0.127" layer="21"/>
+<wire x1="-4.9" y1="8.6" x2="-4.9" y2="13.5" width="0.6096" layer="21"/>
+<wire x1="-4.9" y1="13.5" x2="-4" y2="13.5" width="0.6096" layer="21"/>
+<wire x1="-4" y1="13.5" x2="-4" y2="9.8" width="0.6096" layer="21"/>
+<wire x1="-4" y1="9.8" x2="-3" y2="9.8" width="0.6096" layer="21"/>
+<wire x1="-3" y1="9.8" x2="-3" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="-3" y1="13.4" x2="-1.8" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="-1.8" y1="13.4" x2="-1.8" y2="9.8" width="0.6096" layer="21"/>
+<wire x1="-1.8" y1="9.8" x2="-0.6" y2="9.8" width="0.6096" layer="21"/>
+<wire x1="-0.6" y1="9.8" x2="-0.6" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="-0.6" y1="13.4" x2="0.5" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="0.5" y1="13.4" x2="0.5" y2="9.9" width="0.6096" layer="21"/>
+<wire x1="0.5" y1="9.9" x2="1.6" y2="9.9" width="0.6096" layer="21"/>
+<wire x1="1.6" y1="9.9" x2="1.6" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="1.6" y1="13.4" x2="5.6" y2="13.4" width="0.6096" layer="21"/>
+<wire x1="-4.9" y1="8.5" x2="-4.9" y2="7.9" width="0.6096" layer="21"/>
+<wire x1="-4.9" y1="7.9" x2="1.6" y2="7.9" width="0.6096" layer="21"/>
+<wire x1="-5.8" y1="-9.8" x2="-8.1" y2="-9.8" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-9.8" x2="6.2" y2="-9.8" width="0.127" layer="21"/>
+<smd name="ADC" x="-8.3" y="3.8" dx="3" dy="1.2" layer="1"/>
+<smd name="CH_PD" x="-8.3" y="1.8" dx="3" dy="1.2" layer="1"/>
+<smd name="CS0" x="-4.8" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="GND" x="8.1" y="-8.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO0" x="8.1" y="-2.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO2" x="8.1" y="-4.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO4" x="8.1" y="-0.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO5" x="8.1" y="1.8" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO9" x="-0.8" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="GPIO10" x="1.2" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="GPIO12" x="-8.3" y="-4.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO13" x="-8.3" y="-6.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO14" x="-8.3" y="-2.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO15" x="8.1" y="-6.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO16" x="-8.3" y="-0.2" dx="3" dy="1.2" layer="1"/>
+<smd name="MISO" x="-2.8" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="MOSI" x="3.2" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="RESET" x="-8.3" y="5.8" dx="3" dy="1.2" layer="1"/>
+<smd name="RXD0" x="8.1" y="3.8" dx="3" dy="1.2" layer="1"/>
+<smd name="SCLK" x="5.2" y="-10.3" dx="3" dy="1.2" layer="1" rot="R90"/>
+<smd name="TXD0" x="8.1" y="5.8" dx="3" dy="1.2" layer="1"/>
+<smd name="VCC" x="-8.3" y="-8.2" dx="3" dy="1.2" layer="1"/>
+<text x="0" y="3" size="1.4224" layer="21" align="bottom-center">ESP - 12E</text>
+<text x="-7.7" y="-11.9" size="1.4224" layer="27">&gt;Value</text>
+<text x="-7.7" y="15.1" size="1.4224" layer="25">&gt;Name</text>
+</package>
+<package name="PARTS_PJ-342-6P">
+<wire x1="0" y1="3.3" x2="1.2" y2="3.3" width="0.127" layer="21"/>
+<wire x1="3.4" y1="3.3" x2="8.2" y2="3.3" width="0.127" layer="21"/>
+<wire x1="12.4" y1="2.4" x2="12.4" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="9.8" y1="-3.3" x2="6.5" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-3.3" x2="3.4" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-3.3" x2="0" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.3" x2="0" y2="-2" width="0.127" layer="21"/>
+<wire x1="0" y1="-2" x2="0" y2="2" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="0" y2="3.3" width="0.127" layer="21"/>
+<wire x1="0" y1="2" x2="-2" y2="2" width="0.127" layer="21"/>
+<wire x1="0" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
+<wire x1="8.2" y1="3.3" x2="8.2" y2="2.4" width="0.127" layer="21"/>
+<wire x1="8.2" y1="2.4" x2="12.4" y2="2.4" width="0.127" layer="21"/>
+<wire x1="9.8" y1="-2.4" x2="12.4" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="9.8" y1="-2.4" x2="9.8" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-2.4" x2="6.5" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-2.4" x2="3.4" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="1.2" y1="2.4" x2="3.4" y2="2.4" width="0.127" layer="21"/>
+<wire x1="3.4" y1="3.3" x2="3.4" y2="2.4" width="0.127" layer="21"/>
+<wire x1="1.2" y1="3.3" x2="1.2" y2="2.4" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-2.4" x2="1.2" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="3.4" y1="-2.4" x2="3.4" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-2.4" x2="4.5" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-2.4" x2="6.5" y2="-3.3" width="0.127" layer="21"/>
+<smd name="2" x="2.3" y="-3.7" dx="2" dy="1.5" layer="1" rot="R90"/>
+<smd name="3" x="2.3" y="3.7" dx="2" dy="1.5" layer="1" rot="R90"/>
+<smd name="4" x="5.5" y="-3.7" dx="2" dy="1.5" layer="1" rot="R90"/>
+<smd name="5" x="10.9" y="-3.7" dx="2" dy="1.5" layer="1" rot="R90"/>
+<smd name="6" x="9.3" y="3.7" dx="2" dy="1.5" layer="1" rot="R90"/>
+<smd name="7" x="11.6" y="3.7" dx="2" dy="1.5" layer="1" rot="R90"/>
+</package>
+<package name="PARTS_SOT-23-3">
+<circle x="-2" y="-2" radius="0.2" width="0.127" layer="27"/>
+<wire x1="1.7" y1="-1.5" x2="1.7" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="1.5" x2="-1.7" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-1.5" x2="0.4" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.5" x2="-1.67" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.67" y1="1.5" x2="0.635" y2="1.5" width="0.127" layer="21"/>
+<smd name="1" x="-1" y="-1.5" dx="1.27" dy="0.635" layer="1" rot="R270"/>
+<smd name="2" x="1" y="-1.5" dx="1.27" dy="0.635" layer="1" rot="R270"/>
+<smd name="3" x="0" y="1.5" dx="1.27" dy="0.635" layer="1" rot="R270"/>
+<text x="-2.54" y="0" size="0.8128" layer="25" rot="R90" align="center">&gt;Name</text>
+<text x="2.54" y="0" size="0.8128" layer="27" rot="R270" align="center">&gt;Value</text>
+</package>
+<package name="PARTS_SOT-23-5">
+<circle x="-2" y="-2" radius="0.2" width="0.127" layer="27"/>
+<wire x1="-1.7" y1="1.5" x2="-1.7" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.5" x2="1.7" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0.4" y1="1.5" x2="-0.4" y2="1.5" width="0.127" layer="21"/>
+<smd name="1" x="-1" y="-1.5" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-1.5" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="3" x="1" y="-1.5" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="4" x="1" y="1.5" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="5" x="-1" y="1.5" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<text x="-2.5" y="0" size="0.8128" layer="25" rot="R90" align="center">&gt;Name</text>
+<text x="2.5" y="0" size="0.8128" layer="27" rot="R90" align="center">&gt;Value</text>
+</package>
+<package name="TALKIE_8-MSOP">
+<wire x1="-1.625" y1="1.625" x2="-1.3" y2="1.625" width="0.1016" layer="21"/>
+<wire x1="1.3" y1="1.625" x2="1.625" y2="1.625" width="0.1016" layer="21"/>
+<wire x1="1.625" y1="1.625" x2="1.625" y2="-1.625" width="0.1016" layer="21"/>
+<wire x1="1.625" y1="-1.625" x2="1.3" y2="-1.625" width="0.1016" layer="21"/>
+<wire x1="-1.625" y1="1.625" x2="-1.625" y2="-1.3" width="0.1016" layer="21"/>
+<wire x1="-1.625" y1="-1.3" x2="-1.3" y2="-1.625" width="0.1016" layer="21"/>
+<wire x1="-1.95" y1="-1.625" x2="-1.625" y2="-1.625" width="0.1016" layer="21"/>
+<wire x1="-1.625" y1="-1.625" x2="-1.625" y2="-1.95" width="0.1016" layer="21"/>
+<wire x1="-1.625" y1="-1.95" x2="-1.95" y2="-1.625" width="0.1016" layer="21"/>
+<smd name="1" x="-0.975" y="-2.275" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.325" y="-2.275" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0.325" y="-2.275" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.975" y="-2.275" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="0.975" y="2.275" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="0.325" y="2.275" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="7" x="-0.325" y="2.275" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="8" x="-0.975" y="2.275" dx="1.6" dy="0.4" layer="1" rot="R90"/>
+<text x="-2.6" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="center">&gt;Name</text>
+<text x="2.6" y="0" size="0.8128" layer="27" font="vector" rot="R90" align="center">&gt;Value</text>
+</package>
+<package name="TALKIE_16-SSOP">
+<circle x="-3.3" y="-2.7" radius="0.282840625" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="2.6" x2="3.2" y2="2.6" width="0.127" layer="21"/>
+<wire x1="3.2" y1="2.6" x2="3.2" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-2.6" x2="-2.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-2" x2="-3.2" y2="2.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-3.2" y2="-2" width="0.127" layer="21"/>
+<smd name="1" x="-2.275" y="-3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="2" x="-1.625" y="-3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="3" x="-0.975" y="-3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="4" x="-0.325" y="-3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="5" x="0.325" y="-3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="6" x="0.975" y="-3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="7" x="1.625" y="-3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="8" x="2.275" y="-3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="9" x="2.275" y="3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="10" x="1.625" y="3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="11" x="0.975" y="3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="12" x="0.325" y="3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="13" x="-0.325" y="3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="14" x="-0.975" y="3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="15" x="-1.625" y="3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<smd name="16" x="-2.275" y="3.25" dx="1.3" dy="0.42" layer="1" rot="R90"/>
+<text x="-3.9" y="0" size="0.8128" layer="25" font="vector" rot="R90" align="center">&gt;Name</text>
+<text x="3.9" y="0" size="0.8128" layer="27" font="vector" rot="R90" align="center">&gt;Value</text>
+</package>
+<package name="TALKIE_DPAD-10X10">
+<circle x="0" y="0" radius="2.34" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.15" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="5.2" x2="-5.2" y2="4" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="2.5" x2="-5.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-0.3" x2="-5.2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-4" x2="-5.2" y2="-5.2" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="-5.2" x2="5.2" y2="-5.2" width="0.127" layer="21"/>
+<wire x1="5.2" y1="-5.2" x2="5.2" y2="-4" width="0.127" layer="21"/>
+<wire x1="5.2" y1="-2.5" x2="5.2" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="5.2" y1="1.2" x2="5.2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="5.2" y1="4" x2="5.2" y2="5.2" width="0.127" layer="21"/>
+<wire x1="5.2" y1="5.2" x2="-5.2" y2="5.2" width="0.127" layer="21"/>
+<wire x1="-3" y1="0" x2="-2.2" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-3" y1="0" x2="-2.2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="3" x2="-0.8" y2="2.2" width="0.127" layer="21"/>
+<wire x1="0" y1="3" x2="0.8" y2="2.2" width="0.127" layer="21"/>
+<wire x1="3" y1="0" x2="2.2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="3" y1="0" x2="2.2" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-3" x2="-0.8" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="0" y1="-3" x2="0.8" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="3.3" x2="-3.8" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="3.3" x2="-3.2" y2="2.7" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="4" x2="-4.8" y2="4" width="0.127" layer="27"/>
+<wire x1="-4.8" y1="4" x2="-4.8" y2="3.3" width="0.127" layer="27"/>
+<wire x1="-4.8" y1="3.3" x2="-4.8" y2="2.5" width="0.127" layer="27"/>
+<wire x1="-4.8" y1="2.5" x2="-5.2" y2="2.5" width="0.127" layer="27"/>
+<wire x1="-5.2" y1="2.5" x2="-5.2" y2="1.2" width="0.127" layer="27"/>
+<wire x1="-5.2" y1="1.2" x2="-4.8" y2="1.2" width="0.127" layer="27"/>
+<wire x1="-4.8" y1="1.2" x2="-4.8" y2="-0.3" width="0.127" layer="27"/>
+<wire x1="-4.8" y1="-0.3" x2="-5.2" y2="-0.3" width="0.127" layer="27"/>
+<wire x1="-5.2" y1="-4" x2="-4.8" y2="-4" width="0.127" layer="27"/>
+<wire x1="-4.8" y1="-4" x2="-4.8" y2="-3" width="0.127" layer="27"/>
+<wire x1="-4.8" y1="-3" x2="-4.8" y2="-2.5" width="0.127" layer="27"/>
+<wire x1="-4.8" y1="-2.5" x2="-5.2" y2="-2.5" width="0.127" layer="27"/>
+<wire x1="5.2" y1="-4" x2="4.8" y2="-4" width="0.127" layer="27"/>
+<wire x1="4.8" y1="-4" x2="4.8" y2="-3.2" width="0.127" layer="27"/>
+<wire x1="4.8" y1="-3.2" x2="4.8" y2="-2.5" width="0.127" layer="27"/>
+<wire x1="4.8" y1="-2.5" x2="5.2" y2="-2.5" width="0.127" layer="27"/>
+<wire x1="5.2" y1="2.5" x2="4.8" y2="2.5" width="0.127" layer="27"/>
+<wire x1="4.8" y1="2.5" x2="4.8" y2="4" width="0.127" layer="27"/>
+<wire x1="4.8" y1="4" x2="5.2" y2="4" width="0.127" layer="27"/>
+<wire x1="5.2" y1="-0.3" x2="4.8" y2="-0.3" width="0.127" layer="27"/>
+<wire x1="4.8" y1="-0.3" x2="4.8" y2="1.2" width="0.127" layer="27"/>
+<wire x1="4.8" y1="1.2" x2="5.2" y2="1.2" width="0.127" layer="27"/>
+<smd name="1" x="-6" y="3.25" dx="2" dy="1.2" layer="1"/>
+<smd name="2" x="-6" y="0.45" dx="2" dy="1.2" layer="1"/>
+<smd name="3" x="-6" y="-3.25" dx="2" dy="1.2" layer="1"/>
+<smd name="4" x="6" y="3.25" dx="2" dy="1.2" layer="1"/>
+<smd name="5" x="6" y="0.45" dx="2" dy="1.2" layer="1"/>
+<smd name="6" x="6" y="-3.25" dx="2" dy="1.2" layer="1"/>
+<text x="-3" y="6" size="0.8128" layer="25" font="vector" align="center">&gt;Name</text>
+<text x="3" y="6" size="0.8128" layer="27" font="vector" align="center">&gt;Value</text>
+<hole x="-2.2" y="-2.2" drill="0.8"/>
+<hole x="2.2" y="-2.2" drill="0.8"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ER-OLED0.49_ER-OLED0.49">
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-53.34" x2="17.78" y2="-53.34" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-53.34" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<pin name="1.C2P" x="-10.16" y="15.24" length="middle"/>
+<pin name="2.C2N" x="-10.16" y="10.16" length="middle"/>
+<pin name="3.C1P" x="-10.16" y="5.08" length="middle"/>
+<pin name="4.C1N" x="-10.16" y="0" length="middle"/>
+<pin name="5.VBAT" x="-10.16" y="-5.08" length="middle"/>
+<pin name="6.NC" x="-10.16" y="-10.16" length="middle"/>
+<pin name="7.VSS" x="-10.16" y="-15.24" length="middle"/>
+<pin name="8.VDD" x="-10.16" y="-20.32" length="middle"/>
+<pin name="9.RES" x="-10.16" y="-25.4" length="middle"/>
+<pin name="10.SCL" x="-10.16" y="-30.48" length="middle"/>
+<pin name="11.SDA" x="-10.16" y="-35.56" length="middle"/>
+<pin name="12.IREF" x="-10.16" y="-40.64" length="middle"/>
+<pin name="13.VCOM" x="-10.16" y="-45.72" length="middle"/>
+<pin name="14.VCC" x="-10.16" y="-50.8" length="middle"/>
+</symbol>
+<symbol name="SEEED-OPL-CAPACITOR_C">
+<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="1.016" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.016" x2="0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-3.81" y="1.27" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="SEEED-OPL-CONNECTOR_USB-MICRO-5P">
+<wire x1="-8.89" y1="6.35" x2="-8.89" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="3.81" x2="-8.89" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="1.27" x2="-8.89" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-1.27" x2="-8.89" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-3.81" x2="-8.89" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-6.35" x2="8.89" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-6.35" x2="8.89" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="8.89" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-2.54" x2="8.89" y2="0" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="2.54" x2="8.89" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="8.89" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="6.35" x2="-8.89" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="1.27" x2="-8.89" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-1.27" x2="-8.89" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-2.54" x2="10.16" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="0" x2="10.16" y2="0" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="5.08" x2="11.43" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="3.81" x2="-8.89" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-3.81" x2="-8.89" y2="-3.81" width="0.1524" layer="94"/>
+<pin name="DM" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="DP" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="GND@1" x="-12.7" y="3.81" length="short"/>
+<pin name="GND@2" x="-12.7" y="1.27" length="short"/>
+<pin name="GND@3" x="-12.7" y="-1.27" length="short"/>
+<pin name="GND@4" x="-12.7" y="-3.81" length="short"/>
+<pin name="GND@5" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="ID" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="VCC" x="12.7" y="5.08" length="short" rot="R180"/>
+<text x="-8.89" y="7.62" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="1.27" y="7.62" size="1.27" layer="95" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="SEEED-OPL-DIODE_LED-1">
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.143" y2="2.413" width="0.254" layer="94"/>
+<wire x1="-1.143" y1="2.413" x2="-0.508" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.778" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.143" y1="2.413" x2="0.889" y2="4.445" width="0.254" layer="94"/>
+<wire x1="0.889" y1="4.445" x2="0.127" y2="4.318" width="0.254" layer="94"/>
+<wire x1="0.889" y1="4.445" x2="0.762" y2="3.683" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.778" x2="1.524" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.81" x2="0.762" y2="3.683" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.81" x2="1.397" y2="3.048" width="0.254" layer="94"/>
+<pin name="+" x="-3.81" y="0" visible="off" length="short" direction="pas"/>
+<pin name="-" x="3.81" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-5.08" y="1.27" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="SEEED-OPL-RESISTOR_RES">
+<wire x1="-1.27" y1="0.508" x2="1.27" y2="0.508" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.508" x2="1.27" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.508" x2="-1.27" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-0.508" x2="-1.27" y2="0.508" width="0.254" layer="94"/>
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-3.81" y="1.27" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="SEEED-OPL-SWITCH_BUTTON-2P">
+<circle x="-1.905" y="0" radius="0.635" width="0.1524" layer="94"/>
+<circle x="1.905" y="0" radius="0.635" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0.635" x2="1.27" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<pin name="1" x="-7.62" y="0" length="short"/>
+<pin name="2" x="7.62" y="0" length="short" rot="R180"/>
+<text x="-7.62" y="1.27" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="1.27" y="1.27" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+</symbol>
+<symbol name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_CRYSTAL">
+<wire x1="1.016" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+</symbol>
+<symbol name="SPARKFUN-AESTHETICS_DGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ESP8266MODULES_ESP12E">
+<description>ESP8266-12E Module</description>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="*GPIO9" x="-2.54" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="*GPIO10" x="0" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="ADC" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="CH_PD" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="CS0" x="-7.62" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="GND" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO0" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO2" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO4" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO5" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO12" x="-17.78" y="-5.08" visible="pin" length="middle"/>
+<pin name="GPIO13" x="-17.78" y="-7.62" visible="pin" length="middle"/>
+<pin name="GPIO14" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="GPIO15" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO16" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="MISO" x="-5.08" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="MOSI" x="2.54" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="RESET" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="RX" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="SCLK" x="5.08" y="-27.94" visible="pin" length="middle" rot="R90"/>
+<pin name="TX" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC" x="-17.78" y="-10.16" visible="pin" length="middle"/>
+<text x="-12.7" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="7.62" y="-25.4" size="1.778" layer="96">&gt;Value</text>
+<text x="12.7" y="-20.32" size="1.27" layer="97">* Can only be used on the ESP12-D
+(Untested. Info from esp8266 wiki)</text>
+</symbol>
+<symbol name="PARTS_4P-JACK-6">
+<wire x1="7.62" y1="5.08" x2="0" y2="5.08" width="0.15" layer="94"/>
+<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="0.15" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-3.81" y2="3.81" width="0.15" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-5.08" y2="5.08" width="0.15" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="0" y2="2.54" width="0.15" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.15" layer="94"/>
+<wire x1="0" y1="5.08" x2="-0.635" y2="4.445" width="0.15" layer="94"/>
+<wire x1="0" y1="5.08" x2="0.635" y2="4.445" width="0.15" layer="94"/>
+<wire x1="7.62" y1="0" x2="0" y2="0" width="0.15" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.635" y2="-1.905" width="0.15" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0.635" y2="-1.905" width="0.15" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="0" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-5.08" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-6.35" y2="-1.27" width="0.15" layer="94"/>
+<wire x1="-6.35" y1="-1.27" x2="-7.62" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.15" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-8.89" y2="-3.81" width="0.15" layer="94"/>
+<wire x1="-8.89" y1="-3.81" x2="-10.16" y2="-5.08" width="0.15" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-11.43" y2="7.62" width="0.15" layer="94"/>
+<wire x1="-11.43" y1="7.62" x2="-11.43" y2="3.81" width="0.15" layer="94"/>
+<wire x1="-11.43" y1="3.81" x2="-10.16" y2="3.81" width="0.15" layer="94"/>
+<wire x1="-10.16" y1="3.81" x2="-10.16" y2="-1.27" width="0.15" layer="94"/>
+<wire x1="-10.16" y1="-1.27" x2="-12.7" y2="-1.27" width="0.15" layer="94"/>
+<wire x1="-12.7" y1="-1.27" x2="-12.7" y2="3.81" width="0.15" layer="94"/>
+<wire x1="-12.7" y1="3.81" x2="-11.43" y2="3.81" width="0.15" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.15" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.15" layer="94"/>
+<pin name="1" x="7.62" y="7.62" length="point"/>
+<pin name="2" x="7.62" y="5.08" length="point"/>
+<pin name="2S" x="7.62" y="2.54" length="point"/>
+<pin name="3" x="7.62" y="-2.54" length="point"/>
+<pin name="3S" x="7.62" y="0" length="point"/>
+<pin name="4" x="7.62" y="-5.08" length="point"/>
+</symbol>
+<symbol name="PARTS_MCP1700T">
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-10.16" length="middle" rot="R90"/>
+<pin name="IN" x="-12.7" y="0" length="middle"/>
+<pin name="OUT" x="12.7" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="PARTS_MCP6001">
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="97"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="97"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="97"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="97"/>
+<pin name="IN+" x="-12.7" y="2.54" length="middle"/>
+<pin name="IN-" x="-12.7" y="-2.54" length="middle"/>
+<pin name="OUT" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="V+" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="V-" x="0" y="-12.7" length="middle" rot="R90"/>
+</symbol>
+<symbol name="PARTS_MCP73831">
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="BAT" x="-12.7" y="-2.54" length="middle"/>
+<pin name="CHG" x="-12.7" y="2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="0" length="middle"/>
+<pin name="IREG" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="VBUS" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<text x="0" y="7.62" size="1.778" layer="95" align="center">&gt;Name</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;Value</text>
+</symbol>
+<symbol name="TALKIE_CH340G">
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-11.43" x2="7.62" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-11.43" x2="7.62" y2="11.43" width="0.254" layer="94"/>
+<wire x1="7.62" y1="11.43" x2="-7.62" y2="11.43" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="11.43" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<pin name="CTS" x="12.7" y="-8.89" length="middle" rot="R180"/>
+<pin name="DCD" x="12.7" y="-1.27" length="middle" rot="R180"/>
+<pin name="DM" x="-12.7" y="-3.81" length="middle"/>
+<pin name="DP" x="-12.7" y="-1.27" length="middle"/>
+<pin name="DSR" x="12.7" y="-6.35" length="middle" rot="R180"/>
+<pin name="DTR" x="12.7" y="1.27" length="middle" rot="R180"/>
+<pin name="GND" x="-12.7" y="8.89" length="middle"/>
+<pin name="R232" x="12.7" y="6.35" length="middle" rot="R180"/>
+<pin name="RI" x="12.7" y="-3.81" length="middle" rot="R180"/>
+<pin name="RTS" x="12.7" y="3.81" length="middle" rot="R180"/>
+<pin name="RXD" x="-12.7" y="3.81" length="middle"/>
+<pin name="TXD" x="-12.7" y="6.35" length="middle"/>
+<pin name="V3" x="-12.7" y="1.27" length="middle"/>
+<pin name="VCC" x="12.7" y="8.89" length="middle" rot="R180"/>
+<pin name="XI" x="-12.7" y="-6.35" length="middle"/>
+<pin name="XO" x="-12.7" y="-8.89" length="middle"/>
+<text x="0" y="12.7" size="1.27" layer="95" align="center">&gt;Name</text>
+<text x="0" y="-12.7" size="1.27" layer="96" align="center">&gt;Value</text>
+</symbol>
+<symbol name="TALKIE_D-PAD">
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-0.889" y2="0.889" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="2.54" length="short"/>
+<pin name="2" x="-7.62" y="0" length="short"/>
+<pin name="3" x="-7.62" y="-2.54" length="short"/>
+<pin name="4" x="7.62" y="2.54" length="short" rot="R180"/>
+<pin name="5" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" length="short" rot="R180"/>
+<text x="0" y="7.62" size="1.778" layer="95" align="center">&gt;Name</text>
+<text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;Value</text>
+</symbol>
+<symbol name="TALKIE_LM4890">
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="-7.62" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="10.16" width="0.254" layer="97"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="97"/>
+<pin name="BYP" x="-12.7" y="5.08" length="middle"/>
+<pin name="EN" x="-12.7" y="7.62" length="middle"/>
+<pin name="GND" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="IN+" x="-12.7" y="2.54" length="middle"/>
+<pin name="IN-" x="-12.7" y="0" length="middle"/>
+<pin name="VDD" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="VO1" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="VO2" x="12.7" y="7.62" length="middle" rot="R180"/>
+<text x="0" y="12.7" size="1.778" layer="95" align="center">&gt;Name</text>
+<text x="0" y="-5.08" size="1.778" layer="96" align="center">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ER-OLED0.49_ER-OLED0.49">
+<gates>
+<gate name="G$1" symbol="ER-OLED0.49_ER-OLED0.49" x="-5.08" y="17.78"/>
+</gates>
+<devices>
+<device name="" package="ER-OLED0.49_ER-OLED0.49">
+<connects>
+<connect gate="G$1" pin="1.C2P" pad="P$1"/>
+<connect gate="G$1" pin="10.SCL" pad="P$10"/>
+<connect gate="G$1" pin="11.SDA" pad="P$11"/>
+<connect gate="G$1" pin="12.IREF" pad="P$12"/>
+<connect gate="G$1" pin="13.VCOM" pad="P$13"/>
+<connect gate="G$1" pin="14.VCC" pad="P$14"/>
+<connect gate="G$1" pin="2.C2N" pad="P$2"/>
+<connect gate="G$1" pin="3.C1P" pad="P$3"/>
+<connect gate="G$1" pin="4.C1N" pad="P$4"/>
+<connect gate="G$1" pin="5.VBAT" pad="P$5"/>
+<connect gate="G$1" pin="6.NC" pad="P$6"/>
+<connect gate="G$1" pin="7.VSS" pad="P$7"/>
+<connect gate="G$1" pin="8.VDD" pad="P$8"/>
+<connect gate="G$1" pin="9.RES" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CAPACITOR_CERAMIC-1UF-10V-10%-X5R(0402)" prefix="C">
+<description>302010040</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-CAPACITOR_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-CAPACITOR_C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0402KRX5R6BB105" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CAPACITOR_CERAMIC-4.7UF-6.3V-20%-X5R(0402)" prefix="C">
+<description>302010019</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-CAPACITOR_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-CAPACITOR_C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0402MRX5R5BB475" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CAPACITOR_CERAMIC-4.7UF-10V-10%-X5R(0603)" prefix="C">
+<description>302010111</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-CAPACITOR_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-CAPACITOR_C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0603KRX5R6BB475" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CAPACITOR_CERAMIC-10NF-50V-10%-X7R(0402)" prefix="C">
+<description>302010006</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-CAPACITOR_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-CAPACITOR_C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0402KRX7R9BB103" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CAPACITOR_CERAMIC-10UF-10V-10%-X5R(0603)" prefix="C">
+<description>302010103</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-CAPACITOR_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-CAPACITOR_C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0603KRX5R6BB106" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CAPACITOR_CERAMIC-18PF-50V-5%-NPO(0402)" prefix="C">
+<description>302010016</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-CAPACITOR_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-CAPACITOR_C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0402JRNPO9BN180" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CAPACITOR_CERAMIC-100NF-25V-10%-X7R(0402)" prefix="C">
+<description>302010024</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-CAPACITOR_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-CAPACITOR_C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0402KRX7R8BB104" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CAPACITOR_CERAMIC-470NF-10V-10%-X5R(0402)" prefix="C">
+<description>302010232</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-CAPACITOR_C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-CAPACITOR_C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="CC0402KRX5R6BB474" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CONNECTOR_MICRO-USB-SMD-B-WITHOUT-POST-W/P(ST-USB-001G)" prefix="J" uservalue="yes">
+<description>320010000</description>
+<gates>
+<gate name="USB" symbol="SEEED-OPL-CONNECTOR_USB-MICRO-5P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-CONNECTOR_MICRO-USB5+4P-SMD-0.65-B">
+<connects>
+<connect gate="USB" pin="DM" pad="2"/>
+<connect gate="USB" pin="DP" pad="3"/>
+<connect gate="USB" pin="GND@1" pad="S1"/>
+<connect gate="USB" pin="GND@2" pad="S2"/>
+<connect gate="USB" pin="GND@3" pad="S3"/>
+<connect gate="USB" pin="GND@4" pad="S4 S5 S6"/>
+<connect gate="USB" pin="GND@5" pad="5"/>
+<connect gate="USB" pin="ID" pad="4"/>
+<connect gate="USB" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="ST-USB-001G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-DIODE_SMD-LED-YELLOW-DIFFUSED-PURE-WHITE(0402)" prefix="D">
+<description>304090016</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-DIODE_LED-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-DIODE_LED-0402">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="16-219A/T2D-AR2T1QY/3T" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-RESISTOR_RES" prefix="R" uservalue="yes">
+<gates>
+<gate name="R" symbol="SEEED-OPL-RESISTOR_RES" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-0201" package="SEEED-OPL-RESISTOR_R0201">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0204/5" package="SEEED-OPL-RESISTOR_PR-D1.8*L3.3MM">
+<connects>
+<connect gate="R" pin="1" pad="6"/>
+<connect gate="R" pin="2" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0204/7" package="SEEED-OPL-RESISTOR_R0204_7">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0207/7" package="SEEED-OPL-RESISTOR_R0207_7">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0207/10" package="SEEED-OPL-RESISTOR_PR-D2.3XL6.5MM">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0207/12" package="SEEED-OPL-RESISTOR_R0207_12">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0309/10" package="SEEED-OPL-RESISTOR_R0309_10">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0309/12" package="SEEED-OPL-RESISTOR_R0309_12">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0309/15" package="SEEED-OPL-RESISTOR_R0309_15">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0309/20" package="SEEED-OPL-RESISTOR_R0309_20">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0402" package="SEEED-OPL-RESISTOR_R0402">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0515" package="SEEED-OPL-RESISTOR_R0515_20.4">
+<connects>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0603" package="SEEED-OPL-RESISTOR_R0603">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0805" package="SEEED-OPL-RESISTOR_R0805">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0821/27-5W" package="SEEED-OPL-RESISTOR_R0821_27">
+<connects>
+<connect gate="R" pin="1" pad="P$1"/>
+<connect gate="R" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0824/26-5W" package="SEEED-OPL-RESISTOR_R0824_26">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1206" package="SEEED-OPL-RESISTOR_R1206">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2512" package="SEEED-OPL-RESISTOR_R2512">
+<connects>
+<connect gate="R" pin="1" pad="1"/>
+<connect gate="R" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-7519" package="SEEED-OPL-RESISTOR_R7519_60.4">
+<connects>
+<connect gate="R" pin="1" pad="1 2"/>
+<connect gate="R" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-RESISTOR_SMD-RES-1.5K-5%-1/16W(0402)" prefix="R" uservalue="yes">
+<description>301010001</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-RESISTOR_RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-RESISTOR_R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0402JR-071K5L" constant="no"/>
+<attribute name="VALUE" value="1.5K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-RESISTOR_SMD-RES-1K-5%-1/16W(0402)" prefix="R" uservalue="yes">
+<description>301010006</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-RESISTOR_RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-RESISTOR_R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0402JR-071KL" constant="no"/>
+<attribute name="VALUE" value="1K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-RESISTOR_SMD-RES-2.2K-5%-1/16W(0402)" prefix="R" uservalue="yes">
+<description>301010039</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-RESISTOR_RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-RESISTOR_R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0402JR-072K2L" constant="no"/>
+<attribute name="VALUE" value="2.2K 1/16W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-RESISTOR_SMD-RES-33R-1%-1/16W(0402)" prefix="R" uservalue="yes">
+<description>301010609</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-RESISTOR_RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-RESISTOR_R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0402FR-0733RL" constant="no"/>
+<attribute name="VALUE" value="33R"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-RESISTOR_SMD-RES-100K-1%-1/16W(0402)" prefix="R" uservalue="yes">
+<description>301010456</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-RESISTOR_RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-RESISTOR_R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0402FR-07100KL" constant="no"/>
+<attribute name="VALUE" value="100K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-RESISTOR_SMD-RES-470R-1%-1/16W(0402)" prefix="R" uservalue="yes">
+<description>301010012</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-RESISTOR_RES" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SEEED-OPL-RESISTOR_R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="RC0402FR-07470RL" constant="no"/>
+<attribute name="VALUE" value="470R"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-SWITCH_SMD-BUTTON(2P-3.0X2.5X1.2+0.4MM)" prefix="SW" uservalue="yes">
+<description>311020047</description>
+<gates>
+<gate name="G$1" symbol="SEEED-OPL-SWITCH_BUTTON-2P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-B3U-1000P-2P-SMD" package="SEEED-OPL-SWITCH_SW2-2.6-3.0X2.5X1.2+0.4MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_CRYSTAL" prefix="X" uservalue="yes">
+<gates>
+<gate name="X" symbol="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3225" package="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X4-SMD-3.2X2.5X0.7MM">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5032" package="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X2-SMD-5.0X3.2X1.3MM">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="6914" package="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X4-SMD-6.9X1.4X1.3MM">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="9133" package="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X2-2.0-D9.1XL3.3MM">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HC49UP" package="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_HC49UP">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HC49US" package="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_HC49US">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NX2012SA" package="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X2-SMD-L2.0X1.2X0.55MM">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NX2520SA" package="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X4-SMD-2.5X2.0X0.5MM">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3215" package="SEEED-OPL-CRYSTAL-OSCTLLATOR_1_X2-SMD-3.2X1.5X0.55MM">
+<connects>
+<connect gate="X" pin="1" pad="1"/>
+<connect gate="X" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARKFUN-AESTHETICS_GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SPARKFUN-AESTHETICS_DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP8266MODULES_ESP12E" prefix="U" uservalue="yes">
+<description>ESP12E Module</description>
+<gates>
+<gate name="G$1" symbol="ESP8266MODULES_ESP12E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="ESP8266MODULES_ESP12E-SMD">
+<connects>
+<connect gate="G$1" pin="*GPIO10" pad="GPIO10"/>
+<connect gate="G$1" pin="*GPIO9" pad="GPIO9"/>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="CS0" pad="CS0"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GPIO0" pad="GPIO0"/>
+<connect gate="G$1" pin="GPIO12" pad="GPIO12"/>
+<connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
+<connect gate="G$1" pin="GPIO14" pad="GPIO14"/>
+<connect gate="G$1" pin="GPIO15" pad="GPIO15"/>
+<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
+<connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
+<connect gate="G$1" pin="GPIO4" pad="GPIO4"/>
+<connect gate="G$1" pin="GPIO5" pad="GPIO5"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="RX" pad="RXD0"/>
+<connect gate="G$1" pin="SCLK" pad="SCLK"/>
+<connect gate="G$1" pin="TX" pad="TXD0"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PARTS_MCP1700T">
+<gates>
+<gate name="G$1" symbol="PARTS_MCP1700T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PARTS_SOT-23-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PARTS_MCP6001UT-I">
+<gates>
+<gate name="G$1" symbol="PARTS_MCP6001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PARTS_SOT-23-5">
+<connects>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PARTS_MCP73831">
+<gates>
+<gate name="G$1" symbol="PARTS_MCP73831" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PARTS_SOT-23-5">
+<connects>
+<connect gate="G$1" pin="BAT" pad="3"/>
+<connect gate="G$1" pin="CHG" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IREG" pad="5"/>
+<connect gate="G$1" pin="VBUS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="T-2ACI/OT"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PARTS_PJ-342">
+<gates>
+<gate name="G$1" symbol="PARTS_4P-JACK-6" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="PARTS_PJ-342-6P">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="6"/>
+<connect gate="G$1" pin="2S" pad="7"/>
+<connect gate="G$1" pin="3" pad="4"/>
+<connect gate="G$1" pin="3S" pad="5"/>
+<connect gate="G$1" pin="4" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TALKIE_CH340G">
+<gates>
+<gate name="G$1" symbol="TALKIE_CH340G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TALKIE_16-SSOP">
+<connects>
+<connect gate="G$1" pin="CTS" pad="9"/>
+<connect gate="G$1" pin="DCD" pad="12"/>
+<connect gate="G$1" pin="DM" pad="6"/>
+<connect gate="G$1" pin="DP" pad="5"/>
+<connect gate="G$1" pin="DSR" pad="10"/>
+<connect gate="G$1" pin="DTR" pad="13"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="R232" pad="15"/>
+<connect gate="G$1" pin="RI" pad="11"/>
+<connect gate="G$1" pin="RTS" pad="14"/>
+<connect gate="G$1" pin="RXD" pad="3"/>
+<connect gate="G$1" pin="TXD" pad="2"/>
+<connect gate="G$1" pin="V3" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+<connect gate="G$1" pin="XI" pad="7"/>
+<connect gate="G$1" pin="XO" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TALKIE_D-PAD">
+<gates>
+<gate name="G$1" symbol="TALKIE_D-PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TALKIE_DPAD-10X10">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TALKIE_LM4890">
+<gates>
+<gate name="G$1" symbol="TALKIE_LM4890" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TALKIE_8-MSOP">
+<connects>
+<connect gate="G$1" pin="BYP" pad="2"/>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+<connect gate="G$1" pin="VO1" pad="5"/>
+<connect gate="G$1" pin="VO2" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
+</eagle>
